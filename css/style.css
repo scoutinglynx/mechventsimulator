@@ -1,0 +1,223 @@
+/* General */
+.entire-container{
+  width: 1100px;
+  
+  font-family: Verdana;
+}
+
+/* Header */
+.title-container {
+  width: 40%;
+  margin: 0 300px;
+}
+
+@font-face { 
+  font-family: "GoodFootRegular";
+  src: url("../fonts/good-foot.ttf") format('truetype');
+}
+
+.title-header {
+  /*Title background and font*/
+  border:solid 1px #2d2d2d;
+  text-align:center; 
+  background:#575757; 
+  padding:5px 50px 5px 50px;  
+  -moz-border-radius: 5px;  
+  -webkit-border-radius: 5px; 
+  border-radius: 5px;
+  font-family: GoodFootRegular;
+  font-size: 28px;
+  color:#FFF;
+  
+  /*Title rotation*/
+  transform:  rotate(357deg) scale(1) skew(1deg) translate(0px);
+  -webkit-transform:  rotate(357deg) scale(1) skew(1deg) translate(0px);
+  -moz-transform: rotate(357deg) scale(1) skew(1deg) translate(0px);
+  -o-transform:  rotate(357deg) scale(1) skew(1deg) translate(0px);
+  -ms-transform:  rotate(357deg) scale(1) skew(1deg) translate(0px);
+  
+  /*Title shadow box*/
+  -moz-box-shadow:10px  10px 5px #000000;
+  -webkit-box-shadow:10px  10px 5px #000000;
+  box-shadow:10px  10px 5px #000000;
+}
+
+
+/* Menu */ 
+
+.menu-container{
+  width: 300px;
+  height: 250px;
+  margin-right: 50px;
+  float: right;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Dropdown */
+.dropdown-menu li{
+  font-size: 18px;
+  margin-top: 5px;
+  min-width: 50px;
+  text-align: left;
+  text-decoration: none;
+  
+  list-style-image: url("../img/arrow.gif");
+  text-decoration: none;
+}
+
+/* Clinical Scenarios Slide*/
+.scenario-container{
+	width: 740px;
+	height: 175px;
+	margin-bottom: 1cm;
+}
+
+.cases{
+	display: none;
+}
+
+/* Knobs */
+.vent-knob{text-align: center; width: 180px; float: left}
+
+/* Mechanical Vent*/
+.mvent-container{
+	width: 740px;
+	height: 350px;
+	margin-bottom: 0.5cm;
+	float: left;
+}
+
+.mvent-header {
+  background-color: rgba(255, 255, 255, 0.95);
+  font-family: Verdana;
+  font-weight: 300;
+  
+  font-size: 15px;
+  padding: 0px;
+  
+  height: 360px;
+  border:  5px solid #ddd;
+}
+
+.vent-btn{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Verdana;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+  width: 250px;
+  height: 70px;
+  margin: 0 65% 0 35%;
+
+}
+
+.vent-btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.vent-btn:disabled{
+  font-family: Verdana;
+  color: #030303;
+  font-size: 20px;
+  background: #dddddd;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+  width: 250px;
+  height: 70px;
+  margin: 0 65% 0 35%;
+}
+
+.btn-attr{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Verdana;
+  color: #ffffff;
+  font-size: 16px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+  width: 200px;
+  height: 40px;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-attr:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.abg-btn:disabled{
+  font-family: Verdana;
+  color: #030303;
+  font-size: 16px;
+  background: #dddddd;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+  width: 200px;
+  height: 40px;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.focus-btn:disabled{
+  font-family: Verdana;
+  color: #030303;
+  font-size: 16px;
+  background: #dddddd;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+  width: 200px;
+  height: 40px;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vent-table{
+	font-family: Verdana;
+	font-weight: 300;
+	font-size: 15px;
+	border-collapse: collapse;
+	margin-left: 20px;
+}
+
+.review-container{
+	width: 300px;
+	height: 200px;
+	border: 2;
+	margin-right: 50px;
+	float: right;
+}
+
+.abg-table{
+	font-family: Verdana;
+	font-weight: 300;
+	font-size: 20px;
+	font-weight: bold;
+	border-collapse: collapse;
+}
