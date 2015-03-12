@@ -398,7 +398,7 @@ var main = function(){
 				if (ph_value < 7.3 || ph_value > 7.45){
 					errorCheck = 3;
 				}
-				else if (pco2_value < 30 || pco2_value > 40){
+				else if (pco2_value < 35 || pco2_value > 45){
 					errorCheck = 3;
 				}
 				else if (po2_value < 60 || po2_value > 150){
